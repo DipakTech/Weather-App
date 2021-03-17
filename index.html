@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>ninja weather</title>
+  </head>
+  <body>
+    <!-- //weather app project -->
+    <!-- html templete  -->
+    <div class="container my-3 mx-auto">
+      <h1 class="text-white text-center my-4">Explore Weather</h1>
+      <form class="change-location my-4 text-center text-muted">
+        <label for="city" class="text-white">Enter a location for weather information</label>
+        <input type="text" name="city" class="form-control p-4" />
+      </form>
+
+      <div class="card shadow-lg rounded d-none">
+        <img
+          src="https://via.placeholder.com/300x300"
+          alt="img"
+          class="time card-img-top"
+        />
+        <div class="icon bg-light mx-auto text-center">
+          <img src="" alt="" />
+        </div>
+        <!-- icon  -->
+        <div class="text-muted text-uppercase text-center details">
+          <h5 class="my-3">city name</h5>
+          <div class="my-3">weather conditions</div>
+          <div class="display-4 my-4">
+            <span>temp</span>
+            <span>&deg;C</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/sandbox.js"></script>
+  </body>
+</html>
